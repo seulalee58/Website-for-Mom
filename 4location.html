@@ -4,47 +4,68 @@
   <title>우리아이상담연구소 - 찾아오시는 길</title>
   <meta charset="utf-8">
   <style>
-    #list {
-      margin-top:20px;
-      border-top: 2px solid #A4D4B3;
-      border-bottom: 2px solid #A4D4B3;
-      background-color: #CAE5CD;
-      font-family: 'Noto Sans KR', sans-serif
-    }
     a{
       color:black;
       text-decoration:none;
     }
-    image{
-      margin-top: 100px;
+    img{
+      width:200px;
     }
-
-
+    #list {
+      width:70%;
+      margin:20px;
+      border: 2px solid #A4D4B3;
+      background-color: #CAE5CD;
+      font-family: 'Noto Sans KR', sans-serif;
+      text-align: center;
+    }
+    #grid {
+      display:grid;
+      grid-template-columns: 220px 1fr;
+    }
+    @media(max-width:800px) {
+      #grid {
+        display:block;
+      }
+      #list {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      img{
+        width:35%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
   </style>
 </head>
 <body>
-<div align="center">
+  <!--
   <p style="font-family: 'Noto Sans KR', sans-serif;">사랑가득 기쁨가득 행복가득</p>
   <h2 style="margin-top:-10px; font-family: 'Noto Sans KR', sans-serif;">
     <a href="index.html">우리아이상담연구소</a></h2>
-  <center><img src="logo.png" width="300" alt="우리아이상담연구소 로고"></center>
-  <div id="list">
-    <p><a href="1aboutus.html">처음 오신 분들께</a></p>
-    <p><a href="2counselor.html">상담전문가 소개</a></p>
-    <p><a href="3programs.html">상담 프로그램</a></p>
-    <p><a href="4location.html" style="text-decoration:underline;">찾아오시는 길</a></p>
+  -->
+    <a href="index.html"><img src="logo.png" alt="우리아이상담연구소 로고"></a>
+  <div id="grid">
+    <div id="list">
+      <h4><a href="1aboutus.html">처음 오신 분들께</a></h4>
+      <h4><a href="2counselor.html">상담전문가 소개</a></h4>
+      <h4><a href="3programs.html">상담 프로그램</a></h4>
+      <h4><a href="4location.html" style="text-decoration:underline;">찾아오시는 길</a></h4>
+    </div>
+    <div>
+      <p style="margin-top:50px; font-size:20px;">상담실 위치</p>
+      <p style="margin-top:-10px; text-decoration:underline">
+         <a href="http://naver.me/GCM8Ap8W">청주시 서원구 구룡산로 364 2층<br>
+         (수곡동 96-15)</a></p>
+         <table cellpadding="0" cellspacing="0" width="462"> <tr> <td style="border:1px solid #cecece;"><a href="https://v4.map.naver.com/?searchCoord=d8cbb2b4e52656b758d7697ee614aac97511cd0f36e07fec6e723cb1d8e749bd&query=7LKt7KO87IucIOyEnOybkOq1rCDqtazro6HsgrDroZwgMzY0IDLsuLU%3D&tab=1&lng=2a4ae8e0dc0f49d2861d421887ff5664&mapMode=0&mpx=d1e102323c725061a54176a0ef276fb0988ba9c09342b58bcf9f825276cb5b7ee23b7b034515a286f8a0c6cc9b02d627876bfcbbf9299b3affa879ca511c11d2&lat=48939af1ff9a3982b6a789d245d5a2a4&dlevel=14&enc=b64&menu=location" target="_blank"><img src="http://prt.map.naver.com/mashupmap/print?key=p1606221219886_163092518" width="460" height="340" alt="지도 크게 보기" title="지도 크게 보기" border="0" style="vertical-align:top;"/></a></td> </tr> <tr> <td> <table cellpadding="0" cellspacing="0" width="100%"> <tr> <td height="30" bgcolor="#f9f9f9" align="left" style="padding-left:9px; border-left:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="font-family: tahoma; font-size: 11px; color:#666;">2020.11.24</span>&nbsp;<span style="font-size: 11px; color:#e5e5e5;">|</span>&nbsp;<a style="font-family: dotum,sans-serif; font-size: 11px; color:#666; text-decoration: none; letter-spacing: -1px;" href="https://v4.map.naver.com/?searchCoord=d8cbb2b4e52656b758d7697ee614aac97511cd0f36e07fec6e723cb1d8e749bd&query=7LKt7KO87IucIOyEnOybkOq1rCDqtazro6HsgrDroZwgMzY0IDLsuLU%3D&tab=1&lng=2a4ae8e0dc0f49d2861d421887ff5664&mapMode=0&mpx=d1e102323c725061a54176a0ef276fb0988ba9c09342b58bcf9f825276cb5b7ee23b7b034515a286f8a0c6cc9b02d627876bfcbbf9299b3affa879ca511c11d2&lat=48939af1ff9a3982b6a789d245d5a2a4&dlevel=14&enc=b64&menu=location" target="_blank">지도 크게 보기</a> </td> <td width="98" bgcolor="#f9f9f9" align="right" style="text-align:right; padding-right:9px; border-right:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="float:right;"><span style="font-size:9px; font-family:Verdana, sans-serif; color:#444;">&copy;&nbsp;</span>&nbsp;<a style="font-family:tahoma; font-size:9px; font-weight:bold; color:#2db400; text-decoration:none;" href="https://www.navercorp.com" target="_blank">NAVER Corp.</a></span> </td> </tr> </table> </td> </tr> </table>
+       <p style="margin-top:50px; font-size:20px;">전화번호</p>
+       <p style="margin-top:-10px;"> 010-3910-5164 </p>
+       <p style="margin-top:50px; font-size:20px;">이메일</p>
+       <p style="margin-top:-10px;">woori-i-cc@naver.com</p>
+    </div>
   </div>
- <p style="margin-top:50px; font-size:20px;">상담실 위치</p>
- <p style="margin-top:-10px; text-decoration:underline">
-   <a href="http://naver.me/GCM8Ap8W">청주시 서원구 구룡산로 364 2층<br>
-   (수곡동 96-15)</a></p>
-   <table cellpadding="0" cellspacing="0" width="462"> <tr> <td style="border:1px solid #cecece;"><a href="https://v4.map.naver.com/?searchCoord=d8cbb2b4e52656b758d7697ee614aac97511cd0f36e07fec6e723cb1d8e749bd&query=7LKt7KO87IucIOyEnOybkOq1rCDqtazro6HsgrDroZwgMzY0IDLsuLU%3D&tab=1&lng=2a4ae8e0dc0f49d2861d421887ff5664&mapMode=0&mpx=d1e102323c725061a54176a0ef276fb0988ba9c09342b58bcf9f825276cb5b7ee23b7b034515a286f8a0c6cc9b02d627876bfcbbf9299b3affa879ca511c11d2&lat=48939af1ff9a3982b6a789d245d5a2a4&dlevel=14&enc=b64&menu=location" target="_blank"><img src="http://prt.map.naver.com/mashupmap/print?key=p1606221219886_163092518" width="460" height="340" alt="지도 크게 보기" title="지도 크게 보기" border="0" style="vertical-align:top;"/></a></td> </tr> <tr> <td> <table cellpadding="0" cellspacing="0" width="100%"> <tr> <td height="30" bgcolor="#f9f9f9" align="left" style="padding-left:9px; border-left:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="font-family: tahoma; font-size: 11px; color:#666;">2020.11.24</span>&nbsp;<span style="font-size: 11px; color:#e5e5e5;">|</span>&nbsp;<a style="font-family: dotum,sans-serif; font-size: 11px; color:#666; text-decoration: none; letter-spacing: -1px;" href="https://v4.map.naver.com/?searchCoord=d8cbb2b4e52656b758d7697ee614aac97511cd0f36e07fec6e723cb1d8e749bd&query=7LKt7KO87IucIOyEnOybkOq1rCDqtazro6HsgrDroZwgMzY0IDLsuLU%3D&tab=1&lng=2a4ae8e0dc0f49d2861d421887ff5664&mapMode=0&mpx=d1e102323c725061a54176a0ef276fb0988ba9c09342b58bcf9f825276cb5b7ee23b7b034515a286f8a0c6cc9b02d627876bfcbbf9299b3affa879ca511c11d2&lat=48939af1ff9a3982b6a789d245d5a2a4&dlevel=14&enc=b64&menu=location" target="_blank">지도 크게 보기</a> </td> <td width="98" bgcolor="#f9f9f9" align="right" style="text-align:right; padding-right:9px; border-right:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="float:right;"><span style="font-size:9px; font-family:Verdana, sans-serif; color:#444;">&copy;&nbsp;</span>&nbsp;<a style="font-family:tahoma; font-size:9px; font-weight:bold; color:#2db400; text-decoration:none;" href="https://www.navercorp.com" target="_blank">NAVER Corp.</a></span> </td> </tr> </table> </td> </tr> </table>
- <p style="margin-top:50px; font-size:20px;">전화번호</p>
- <p style="margin-top:-10px;"> 010-3910-5164 </p>
- <p style="margin-top:50px; font-size:20px;">이메일</p>
- <p style="margin-top:-10px;">woori-i-cc@naver.com</p>
-</div>
-
 
 </body>
 <br>

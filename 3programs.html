@@ -4,54 +4,80 @@
   <title>우리아이상담연구소 - 프로그램</title>
   <meta charset="utf-8">
   <style>
-    #list {
-      margin-top:20px;
-      border-top: 2px solid #A4D4B3;
-      border-bottom: 2px solid #A4D4B3;
-      background-color: #CAE5CD;
-      font-family: 'Noto Sans KR', sans-serif
-    }
     a{
       color:black;
       text-decoration:none;
     }
+    #list {
+      width:70%;
+      margin:20px;
+      border: 2px solid #A4D4B3;
+      background-color: #CAE5CD;
+      font-family: 'Noto Sans KR', sans-serif;
+      text-align: center;
+    }
+    #grid {
+      display:grid;
+      grid-template-columns: 220px 1fr;
+    }
+    @media(max-width:800px) {
+      #grid {
+        display:block;
+      }
+      #list {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      img{
+        width:35%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
   </style>
 </head>
 <body>
-<div align="center">
+  <!--
   <p style="font-family: 'Noto Sans KR', sans-serif;">사랑가득 기쁨가득 행복가득</p>
   <h2 style="margin-top:-10px; font-family: 'Noto Sans KR', sans-serif;">
     <a href="index.html">우리아이상담연구소</a></h2>
-  <center><img src="logo.png" width="300" alt="우리아이상담연구소 로고"></center>
-  <div id="list">
-    <p><a href="1aboutus.html">처음 오신 분들께</a></p>
-    <p><a href="2counselor.html">상담전문가 소개</a></p>
-    <p><a href="3programs.html"
-          style="text-decoration:underline;">상담 프로그램
-        </a>
-    </p>
-    <p><a href="4location.html">찾아오시는 길</a></p>
+  -->
+    <center><a href="index.html"><img src="logo.png" width="300" alt="우리아이상담연구소 로고"></a></center>
+  <div id="grid">
+    <div id="list">
+      <h4><a href="1aboutus.html">처음 오신 분들께</a></h4>
+      <h4><a href="2counselor.html">상담전문가 소개</a></h4>
+      <h4><a href="3programs.html"
+            style="text-decoration:underline;">상담 프로그램
+          </a>
+      </h4>
+      <h4><a href="4location.html">찾아오시는 길</a></h4>
+    </div>
+    <div>
+     <h4>아동/청소년 심리상담</h4>
+     <ul>
+       <li>ADHD 치료 프로그램</li>
+       <li>학교부적응 치료 프로그램</li>
+       <li>사회성 향상 프로그램</li>
+       <li>집중력 향상 프로그램</li>
+       <li>분노 조절 능력 향상 프로그램</li>
+       <li>우울증 치료 프로그램</li>
+     </ul>
+     <h4>학습코칭</h4>
+     <ul>
+       <li>학습 능력 증진 프로그램</li>
+       <li>나의 꿈 찾기 프로그램</li>
+       <li>스트레스 다루기 및 인내력 증진 프로그램</li>
+     </ul>
+     <h4>학부모 상담</h4>
+     <ul>
+       <li>올바른 자녀 양육 프로그램</li>
+       <li>부모 자녀 갈등 해소 프로그램</li>
+       <li>자녀와 소통 능력 향상 프로그램</li>
+     </ul>
+    </div>
   </div>
- <h4>아동/청소년 심리상담</h4>
- <p>ADHD 치료 프로그램
-   학교부적응 치료 프로그램<br>
-   사회성 향상 프로그램<br>
-   집중력 향상 프로그램<br>
-   분노 조절 능력 향상 프로그램<br>
-   우울증 치료 프로그램
- </p>
- <h4>학습코칭</h4>
- <p>학습 능력 증진 프로그램<br>
-   나의 꿈 찾기 프로그램<br>
-   스트레스 다루기 및 인내력 증진 프로그램
- </p>
- <h4>학부모 상담</h4>
- <p>올바른 자녀 양육 프로그램<br>
-   부모 자녀 갈등 해소 프로그램<br>
-   자녀와 소통 능력 향상 프로그램
- </p>
-</div>
-
 
 </body>
 <br>

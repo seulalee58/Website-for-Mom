@@ -4,51 +4,76 @@
   <title>우리아이상담연구소 - 상담전문가</title>
   <meta charset="utf-8">
   <style>
-    #list {
-      margin-top:20px;
-      margin-bottom:20px;
-      border-top: 2px solid #A4D4B3;
-      border-bottom: 2px solid #A4D4B3;
-      background-color: #CAE5CD;
-      font-family: 'Noto Sans KR', sans-serif
-    }
     a{
       color:black;
       text-decoration:none;
     }
+    #list {
+      width:70%;
+      margin:20px;
+      border: 2px solid #A4D4B3;
+      background-color: #CAE5CD;
+      font-family: 'Noto Sans KR', sans-serif;
+      text-align: center;
+    }
+    #grid {
+      display:grid;
+      grid-template-columns: 220px 1fr;
+    }
+    @media(max-width:800px) {
+      #grid {
+        display:block;
+      }
+      #list {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      img{
+        width:35%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
   </style>
 </head>
 <body>
-<div align="center">
+  <!--
   <p style="font-family: 'Noto Sans KR', sans-serif;">사랑가득 기쁨가득 행복가득</p>
   <h2 style="margin-top:-10px; font-family: 'Noto Sans KR', sans-serif;">
     <a href="index.html">우리아이상담연구소</a></h2>
-  <center><img src="logo.png" width="300" alt="우리아이상담연구소 로고"></center>
-  <div id="list">
-    <p><a href="1aboutus.html">처음 오신 분들께</a></p>
-    <p><a href="2counselor.html"
-          style="text-decoration:underline;">상담전문가 소개</a></p>
-    <p><a href="3programs.html">상담 프로그램</a></p>
-    <p><a href="4location.html">찾아오시는 길</a></p>
+  -->
+    <center><a href="index.html"><img src="logo.png" width="300" alt="우리아이상담연구소 로고"></a></center>
+  <div id="grid">
+    <div id="list">
+      <h4><a href="1aboutus.html">처음 오신 분들께</a></h4>
+      <h4><a href="2counselor.html"
+            style="text-decoration:underline;">상담전문가 소개</a></h4>
+      <h4><a href="3programs.html">상담 프로그램</a></h4>
+      <h4><a href="4location.html">찾아오시는 길</a></h4>
+    </div>
+
+    <div>
+    <img src="profilepic.png" width="20%" alt="허순매 상담사">
+   <h3>초등전문 상담사 허순매 소장</h3>
+
+   <h4>약력</h4>
+   <p>
+      서울신사초 외 다수 초등교사로 근무<br>
+      (전)대전서부교육지원청 학습코치(학습상담,정서상담,진로상담)<br>
+      (전)대전시교육청 학습코치(학습상담 및 특강
+    </p>
+
+    <h4>자격증 취득</h4>
+    <p>
+      전문상담교사 1급 (교육과학기술부)<br>
+      전문상담사 2급 (한국상담학회)<br>
+      임상심리사 2급 (보건복지부)<br>
+      인터넷중독 전문상담사 2급 (한국정보화진흥원)<br>
+      U&I 학습및진로상담전문가 (연우심리개발원)<br>
+      초등1급정교사 (문교부)
+    </div>
   </div>
-  <img src="profilepic.png" width="20%" alt="허순매 상담사">
- <h3>초등전문 상담사 허순매 소장</h3>
-
- <h4>약력</h4>
- <p>
-    서울신사초  외    다수     초등교사로 근무<br>
-    (전)대전서부교육지원청 학습코치(학습상담,정서상담,진로상담<br>
-    (전)대전시교육청 학습코치(학습상담 및 특강
-  </p>
-
-  <h4>자격증 취득</h4>
-  <p>
-    전문상담교사 1급 (교육과학기술부)<br>
-    전문상담사 2급 (한국상담학회)<br>
-    임상심리사 2급 (보건복지부)<br>
-    인터넷중독 전문상담사 2급 (한국정보화진흥원)<br>
-    U&I 학습및진로상담전문가 (연우심리개발원)<br>
-    초등1급정교사 (문교부)
 <br>
 
 <footer>
